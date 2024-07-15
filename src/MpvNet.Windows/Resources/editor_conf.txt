@@ -948,17 +948,17 @@ option = no
 name = autofit
 file = mpv
 directory = Window
-help = <int> Initial window height in percent. Default: 60
+help = <float> Initial window height in percent. Default: 60
 
 name = autofit-smaller
 file = mpv
 directory = Window
-help = <int> Minimum window height in percent. Default: 10
+help = <float> Minimum window height in percent. Default: 10
 
 name = autofit-larger
 file = mpv
 directory = Window
-help = <int> Maximum window height in percent. Default: 80
+help = <float> Maximum window height in percent. Default: 80
 
 name = autofit-image
 file = mpvnet
@@ -1017,7 +1017,7 @@ option = no
 name = snap-window
 file = mpv
 directory = Window
-help = Snap the player window to screen edges.
+help = Snap the player window to screen and other mpv windows' edges.
 default = no
 option = yes
 option = no

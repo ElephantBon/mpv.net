@@ -200,19 +200,19 @@ public class MainPlayer : MpvClient
         {
             case "autofit":
                 {
-                    if (int.TryParse(value?.Trim('%'), out int result))
+                    if (float.TryParse(value?.Trim('%'), out float result))
                         Autofit = result / 100f;
                 }
                 break;
             case "autofit-smaller":
                 {
-                    if (int.TryParse(value?.Trim('%'), out int result))
+                    if (float.TryParse(value?.Trim('%'), out float result))
                         AutofitSmaller = result / 100f;
                 }
                 break;
             case "autofit-larger":
                 {
-                    if (int.TryParse(value?.Trim('%'), out int result))
+                    if (float.TryParse(value?.Trim('%'), out float result))
                         AutofitLarger = result / 100f;
                 }
                 break;
